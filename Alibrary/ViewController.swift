@@ -9,12 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+
+    //@IBOutlet weak var submitview: UIView!
+    //@IBOutlet weak var message: UILabel!
+    
+    @IBOutlet weak var name: UITextField!
+    
+    @IBOutlet weak var mail: UITextField!
+    //    @IBOutlet weak var txt1: UITextField!
+    @IBOutlet weak var mobile: UITextField!
+    
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//resultlbl.isHidden = true
+        
     }
 
-
-}
-
+    }
